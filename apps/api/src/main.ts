@@ -1,0 +1,26 @@
+import { NestFactory } from '@nestjs/core';
+import { ValidationPipe } from '@nestjs/common';
+import { AppModule } from './app.module';
+
+async function bootstrap() {
+  const app = await NestFactory.create(AppModule, {
+    rawBody: true, // required for WhatsApp webhook HMAC validation
+  });
+
+  app.useGlobalPipes(
+    new ValidationPipe({
+      whitelist: true,
+      forbidNonWhitelisted: true,
+      transform: true,
+    }),
+  );
+
+  app.enableCors();
+  app.setGlobalPrefix('api');
+
+  const port = process.env.PORT ?? 3001;
+  await app.listen(port);
+  console.log(`API running on http://localhost:${port}/api`);
+}
+
+bootstrap();

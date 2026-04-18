@@ -1,0 +1,116 @@
+{
+  "auth": {
+    "login": {
+      "title": "Bem-vindo de volta",
+      "subtitle": "Entre na sua conta",
+      "email": "E-mail",
+      "emailPlaceholder": "voce@exemplo.com",
+      "password": "Senha",
+      "passwordPlaceholder": "••••••••",
+      "submit": "Entrar",
+      "submitting": "Entrando...",
+      "noAccount": "Não tem uma conta?",
+      "createOne": "Criar conta",
+      "error": "E-mail ou senha inválidos"
+    },
+    "register": {
+      "title": "Crie sua conta",
+      "subtitle": "Configure seu assistente de IA para o WhatsApp",
+      "name": "Nome completo",
+      "namePlaceholder": "João Silva",
+      "email": "E-mail",
+      "emailPlaceholder": "voce@exemplo.com",
+      "password": "Senha",
+      "passwordPlaceholder": "Mínimo 8 caracteres",
+      "submit": "Criar conta",
+      "submitting": "Criando conta...",
+      "hasAccount": "Já tem uma conta?",
+      "signIn": "Entrar",
+      "error": "Este e-mail já está em uso"
+    }
+  },
+  "onboarding": {
+    "steps": {
+      "business": "Seu negócio",
+      "whatsapp": "Conectar WhatsApp",
+      "bot": "Configurar bot"
+    },
+    "business": {
+      "title": "Fale sobre o seu negócio",
+      "name": "Nome do negócio",
+      "namePlaceholder": "Ex: Barbearia do João",
+      "type": "Tipo",
+      "typePlaceholder": "Selecione um tipo",
+      "description": "O que você oferece?",
+      "descriptionPlaceholder": "Ex: Corte masculino, barba, sobrancelha. Aberto seg–sáb.",
+      "continue": "Continuar",
+      "saving": "Salvando..."
+    },
+    "whatsapp": {
+      "title": "Conecte seu WhatsApp",
+      "description": "Clique no botão abaixo para conectar seu número do WhatsApp Business. Você será redirecionado para fazer login com sua conta do Facebook — sem tokens para copiar, sem configurações técnicas.",
+      "connect": "Conectar meu WhatsApp",
+      "connecting": "Conectando...",
+      "error": "Falha na conexão. Tente novamente."
+    },
+    "done": {
+      "title": "Seu bot está pronto! 🎉",
+      "description": "Seu WhatsApp está conectado e seu assistente de IA está ativo. Você pode configurar as perguntas frequentes e horários pelo painel.",
+      "dashboard": "Ir para o painel"
+    },
+    "businessTypes": {
+      "barbershop": "Barbearia",
+      "salon": "Salão de Beleza",
+      "store": "Loja",
+      "restaurant": "Restaurante",
+      "other": "Outro"
+    }
+  },
+  "dashboard": {
+    "title": "Painel",
+    "businesses": "Seus negócios",
+    "addBusiness": "Adicionar negócio",
+    "signOut": "Sair",
+    "empty": "Você ainda não cadastrou nenhum negócio.",
+    "getStarted": "Começar",
+    "botOn": "Bot ativo",
+    "botOff": "Bot inativo",
+    "whatsappNotConnected": "WhatsApp não conectado",
+    "configure": "Configurar",
+    "loading": "Carregando..."
+  },
+  "settings": {
+    "title": "Configurações do bot",
+    "back": "← Voltar",
+    "botToggle": {
+      "label": "Bot de IA",
+      "description": "Responder mensagens de clientes automaticamente"
+    },
+    "welcomeMessage": {
+      "title": "Mensagem de boas-vindas",
+      "placeholder": "Olá! Sou o assistente virtual do seu negócio..."
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "addQuestion": "+ Adicionar pergunta",
+      "empty": "Nenhuma pergunta ainda. Adicione as perguntas mais comuns dos seus clientes.",
+      "questionLabel": "Pergunta {number}",
+      "questionPlaceholder": "Ex: Qual é o horário de funcionamento?",
+      "answerPlaceholder": "Ex: Funcionamos de segunda a sábado, das 9h às 19h.",
+      "remove": "Remover"
+    },
+    "save": "Salvar configurações",
+    "saving": "Salvando...",
+    "saved": "Configurações salvas com sucesso!"
+  },
+  "validation": {
+    "nameMin": "Nome deve ter pelo menos 2 caracteres",
+    "emailInvalid": "E-mail inválido",
+    "passwordMin": "A senha deve ter pelo menos 8 caracteres",
+    "passwordRequired": "Senha obrigatória",
+    "descriptionMin": "Descreva seu negócio (mínimo 10 caracteres)",
+    "required": "Campo obrigatório",
+    "questionRequired": "A pergunta é obrigatória",
+    "answerRequired": "A resposta é obrigatória"
+  }
+}

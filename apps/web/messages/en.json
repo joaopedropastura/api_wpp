@@ -1,0 +1,116 @@
+{
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to your account",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "password": "Password",
+      "passwordPlaceholder": "••••••••",
+      "submit": "Sign in",
+      "submitting": "Signing in...",
+      "noAccount": "Don't have an account?",
+      "createOne": "Create one",
+      "error": "Invalid email or password"
+    },
+    "register": {
+      "title": "Create your account",
+      "subtitle": "Set up your AI-powered WhatsApp assistant",
+      "name": "Full name",
+      "namePlaceholder": "John Smith",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "password": "Password",
+      "passwordPlaceholder": "At least 8 characters",
+      "submit": "Create account",
+      "submitting": "Creating account...",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "error": "This email is already in use"
+    }
+  },
+  "onboarding": {
+    "steps": {
+      "business": "Your business",
+      "whatsapp": "Connect WhatsApp",
+      "bot": "Configure bot"
+    },
+    "business": {
+      "title": "Tell us about your business",
+      "name": "Business name",
+      "namePlaceholder": "e.g. João's Barbershop",
+      "type": "Type",
+      "typePlaceholder": "Select a type",
+      "description": "What do you offer?",
+      "descriptionPlaceholder": "e.g. Haircuts, beard trims, eyebrow shaping. Open Mon–Sat.",
+      "continue": "Continue",
+      "saving": "Saving..."
+    },
+    "whatsapp": {
+      "title": "Connect your WhatsApp",
+      "description": "Click the button below to connect your WhatsApp Business number. You'll be redirected to log in with your Facebook account — no tokens to copy, no technical setup required.",
+      "connect": "Connect my WhatsApp",
+      "connecting": "Connecting...",
+      "error": "Connection failed. Please try again."
+    },
+    "done": {
+      "title": "Your bot is ready! 🎉",
+      "description": "Your WhatsApp is connected and your AI assistant is active. You can now configure your FAQ and business hours from the dashboard.",
+      "dashboard": "Go to dashboard"
+    },
+    "businessTypes": {
+      "barbershop": "Barbershop",
+      "salon": "Beauty Salon",
+      "store": "Store",
+      "restaurant": "Restaurant",
+      "other": "Other"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "businesses": "Your businesses",
+    "addBusiness": "Add business",
+    "signOut": "Sign out",
+    "empty": "You haven't set up any business yet.",
+    "getStarted": "Get started",
+    "botOn": "Bot on",
+    "botOff": "Bot off",
+    "whatsappNotConnected": "WhatsApp not connected",
+    "configure": "Configure",
+    "loading": "Loading..."
+  },
+  "settings": {
+    "title": "Bot settings",
+    "back": "← Back",
+    "botToggle": {
+      "label": "AI Bot",
+      "description": "Automatically answer customer messages"
+    },
+    "welcomeMessage": {
+      "title": "Welcome message",
+      "placeholder": "Hi! I'm the virtual assistant for your business..."
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "addQuestion": "+ Add question",
+      "empty": "No questions yet. Add the most common questions your customers ask.",
+      "questionLabel": "Question {number}",
+      "questionPlaceholder": "e.g. What are your hours?",
+      "answerPlaceholder": "e.g. We're open Monday to Saturday, 9am to 7pm.",
+      "remove": "Remove"
+    },
+    "save": "Save settings",
+    "saving": "Saving...",
+    "saved": "Settings saved successfully!"
+  },
+  "validation": {
+    "nameMin": "Name must be at least 2 characters",
+    "emailInvalid": "Invalid email",
+    "passwordMin": "Password must be at least 8 characters",
+    "passwordRequired": "Password is required",
+    "descriptionMin": "Describe your business (at least 10 characters)",
+    "required": "Required",
+    "questionRequired": "Question is required",
+    "answerRequired": "Answer is required"
+  }
+}
